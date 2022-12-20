@@ -50,6 +50,17 @@ span {
   caret-color: #ada2ff;
 }
 
+.input__weather--userChoice:focus {
+  all: unset;
+  width: 30rem;
+  padding: 10px;
+  border: none;
+  border: 2px solid #ada2ff;
+  border-radius: 10px;
+  background-color: white;
+  caret-color: #ada2ff;
+}
+
 .input__weather--btn {
   padding: 0 30px;
   border: none;
